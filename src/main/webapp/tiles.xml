@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- Templates -->
+	
+<!-- 	 <definition name="searchContest" template="/jsp/container.jsp">
+		<put-attribute name="header" value="/jsp/header.jsp" />
+		<put-attribute name="topnav" value="/jsp/navigation.jsp" />
+		<put-attribute name="blank" value="/jsp/blank.jsp" />
+		<put-attribute name="leftmenu" value="/jsp/leftmenu.jsp" />
+		<put-attribute name="body" value="/jsp/body.jsp" />
+		<put-attribute name="footer" value="/jsp/footer.jsp" />
+	</definition>  -->
+
+	<definition name="geobase" template="/jsp/geocont.jsp">
+		<put-attribute name="header" value="/jsp/positionheader.jsp" />
+		<put-attribute name="topnav" value="/jsp/positionnav.jsp" />
+		<put-attribute name="blank" value="/jsp/postionblank.jsp" />
+		<put-attribute name="leftmenu" value="/jsp/postionleftmenu.jsp" />
+		<put-attribute name="body" value="/jsp/postionbody.jsp" />
+		<put-attribute name="footer" value="/jsp/postionfooter.jsp" />
+	</definition>
+	
+	<definition name="lookupContestDetails"  template="/jsp/popupLayout.jsp">
+		<put-attribute name="body" value="/jsp/search.jsp" />
+	</definition> 
+	
+</tiles-definitions>
